@@ -127,7 +127,17 @@ You do not need to know how to code. You can report a glitch, send photos of a b
 
 ## How it was made
 
-The terrain and building outlines come from OpenStreetMap, Microsoft building footprints and a public elevation model. The named buildings were designed from three public campus tour videos, the official campus map and the satellite view. Every step is a Python script that edits the world through the official Minecraft server, and a whole-world check makes sure nothing floats or falls. [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md) explains the pipeline.
+The terrain and building outlines come from OpenStreetMap, Microsoft building footprints and a public elevation model. That gives every building its true position and shape, but map data says nothing about what a building looks like.
+
+The look of the named buildings comes from three public campus tour videos on YouTube:
+
+- [W7D6gLvjizM](https://www.youtube.com/watch?v=W7D6gLvjizM)
+- [JkbNik31wDE](https://www.youtube.com/watch?v=JkbNik31wDE)
+- [SqZLoYQonbc](https://www.youtube.com/watch?v=SqZLoYQonbc)
+
+About 700 still frames were taken from these videos and sorted by building, using the captions, the signs on buildings and the route each video follows round campus. Each building was then modelled from its frames: the colour of the walls, the window bands, the roof shape, the signs, the porches and the stair towers. Each building's script names the frames it used by video and timestamp, and [docs/BUILDINGS.md](docs/BUILDINGS.md) lists them. The official campus map and the satellite view filled in names and places that the videos do not show. The videos and frames belong to their creators and are not included in this repository.
+
+Every step is a Python script that edits the world through the official Minecraft server, and a whole-world check makes sure nothing floats or falls. [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md) explains the pipeline.
 
 ```
 tools/          base layer: map data to terrain and first buildings
