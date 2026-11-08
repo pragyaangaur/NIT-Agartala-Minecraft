@@ -46,7 +46,7 @@ Every named building has its own script in `tools/hand/`. The teleport commands 
 
 `generic.py` restyles about 970 unnamed buildings from their real outlines. About 150 on campus are huts, sheds, offices and two to five storey blocks with colour bands and water tanks. About 800 village houses outside the campus wall have assorted colours, tin or thatch roofs and verandas. The look of each building is seeded by its footprint id, so a rerun gives the same result.
 
-`furnish_all.py` then furnishes every room it can find in those buildings. Homes get a bed, storage and a rug. Campus rooms become classrooms with a board and rows of desks, offices with desks and shelves, or open-plan floors with desk blocks and aisles.
+`furnish_all.py` then puts placeholder furniture in every room it can find, so that buildings are not empty shells. Homes get a bed, storage and a rug. Campus rooms become classrooms with a board and rows of desks, offices with desks and shelves, or open-plan floors with desk blocks and aisles. None of these rooms is based on the real building, and replacing them with real layouts is one of the main open jobs in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Not tied to a name yet
 
