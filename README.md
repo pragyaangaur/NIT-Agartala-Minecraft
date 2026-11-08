@@ -12,7 +12,7 @@ This is the campus of the National Institute of Technology Agartala, rebuilt blo
 2. Unzip it into your Minecraft `saves` folder. On Windows this is `%appdata%\.minecraft\saves`, and on macOS it is `~/Library/Application Support/minecraft/saves`.
 3. Open Minecraft Java Edition 26.3 or newer and pick **NIT Agartala** from the world list.
 
-The world opens in creative mode with cheats on. [docs/BUILDINGS.md](docs/BUILDINGS.md) has a teleport command for every named building, for example `/tp @s 872 76 1245` for the Library.
+The world opens in creative mode with cheats on, and you start in Knowledge Park. [docs/BUILDINGS.md](docs/BUILDINGS.md) has a teleport command for every named building, for example `/tp @s 872 76 1245` for the Library.
 
 ## The campus
 
@@ -60,6 +60,7 @@ Almost every building has a way in, and most have furniture. The pictures below 
 | Other buildings, styled from their real outlines | about 970 |
 | Rooms furnished | about 1,000 |
 | Students standing about campus | 87 |
+| Students sitting at desks | about 1,100 |
 | Scale | 1 block = 1 m |
 | Area | x 32 to 1887, z 64 to 2047 |
 
