@@ -16,6 +16,10 @@ One block is one metre, both across and up. The model covers x 32 to 1887 and z 
 - `builder.py` and `specs.py` raise the first buildings from their outlines.
 - `anvil.py`, `nbt.py` and `pack.py` write the regions as a Minecraft 26.3 save, using the server-made template in `data/skeleton/`.
 
+## Reference frames from the tour videos
+
+Map data gives each building's outline and height but not its look. The look comes from three public campus tour videos on YouTube ([W7D6gLvjizM](https://www.youtube.com/watch?v=W7D6gLvjizM), [JkbNik31wDE](https://www.youtube.com/watch?v=JkbNik31wDE) and [SqZLoYQonbc](https://www.youtube.com/watch?v=SqZLoYQonbc)). About 700 still frames were taken from them and laid out on contact sheets. Each frame was matched to a building by its caption, a sign in view or the route of the video, and then checked against the outline on the map. The hand-built scripts were drawn from those frames, and each one cites its frames in its docstring as a video code and timestamp, such as `W7D 2:12` for the CSE sign. The videos and frames are not in this repository because they belong to their creators.
+
 ## Hand layer (`tools/hand/`)
 
 The hand layer edits the world through the official 26.3 server, run headless. Each script produces commands. `mcserver.py` writes them into a datapack as functions of at most 20,000 commands, loads the area with `forceload`, runs the functions and saves. Long jobs are split into sessions of about ten 256 by 256 tiles so the server does not run out of memory.
