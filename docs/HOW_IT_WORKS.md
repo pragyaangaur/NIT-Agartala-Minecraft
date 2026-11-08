@@ -34,6 +34,7 @@ The rest of the world comes from scripts that work over the whole map.
 | `grounds.py`, `lake.py` | The RNT Ground, the stadium oval and the campus lake |
 | `furnish_all.py` | Finds every room in every building and furnishes it as a home, classroom, office, open-plan floor or hall. It also cuts doors into closed ground floors and adds ladders between floors |
 | `lightlife.py` | Hidden light blocks in every room and along paths and roads, and dressed armour stands as students |
+| `students.py` | Seats students at about one campus desk in fourteen and sets the world spawn in Knowledge Park |
 | `leaves.py` | Makes every leaf block persistent so trees never decay |
 | `worldedge.py` | Turns land past the model into flat grass and sets the world border |
 | `audit.py` | Scans every block for floating parts and anything that would pop off, and fixes them |
