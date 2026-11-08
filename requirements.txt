@@ -1,0 +1,7 @@
+# The hand layer (tools/hand) needs only these three
+numpy
+scipy
+Pillow
+# The base layer (tools/) also uses these
+matplotlib
+numba
