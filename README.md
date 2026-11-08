@@ -19,24 +19,38 @@ Walk in through the main gate, find your hostel, climb through the Library's thr
 
 Every road, hostel, hill and pond sits where it is on the ground at Barjala, Jirania, because one block is one metre both across and up. The layout comes from real map data, and the main buildings were designed by hand from campus tour videos, so a student should recognise the place on sight. You can use it to show a friend round campus, run a treasure hunt, plan an event or build something new on top of it.
 
-## Play it in three steps
+## Play it in four steps
 
-**1. Download the world.** Click the green button above, or open the [latest release](../../releases/latest) and download `NIT_Agartala_world_26.3.zip`.
+**1. Download the world.** Click the green button above, or open the [latest release](../../releases/latest) and download `NIT_Agartala_world_26.3.zip` (about 100 MB). Do not download the files called "Source code". Those hold only the scripts and have no world in them.
 
-**2. Unzip it and move the folder into `saves`.** Unzipping makes one folder with `level.dat` directly inside it. Move that whole folder into your `saves` folder, so you end up with `saves/<that folder>/level.dat`. You can rename the folder to anything you like.
+**2. Unzip it.** You get one folder called `NIT Agartala`.
 
-| Your computer | Where the `saves` folder is |
+**3. Drag the `NIT Agartala` folder into your `saves` folder.** Move the whole folder, not the files inside it.
+
+| Your computer | How to open the `saves` folder |
 | --- | --- |
 | Windows | Press <kbd>Win</kbd> + <kbd>R</kbd>, type `%appdata%\.minecraft\saves` and press Enter |
-| macOS | In Finder, choose Go, then Go to Folder, and type `~/Library/Application Support/minecraft/saves` |
+| macOS | In Finder press <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> and paste `~/Library/Application Support/minecraft/saves` |
 | Linux | `~/.minecraft/saves` |
-| Any launcher | In Minecraft, open Options, then Resource Packs, then Open Pack Folder. Go up one folder, and `saves` is next to `resourcepacks` |
+| Any launcher | In Minecraft, open Options, then Resource Packs, then Open Pack Folder. Go up one folder and open `saves` |
 
-If you play through a launcher such as Modrinth, Prism, CurseForge or TLauncher (common with Fabric or Forge), each profile has its own `saves` folder. The last row of the table always finds the right one.
+If you play through another launcher, such as Modrinth, Prism, CurseForge, SKLauncher or TLauncher, each profile has its own `saves` folder. The last row of the table always finds the right one.
 
-**3. Open Minecraft Java Edition 26.3 or newer.** Choose Singleplayer and pick **NIT Agartala** from the list.
+**4. Start Minecraft Java Edition 26.3 or newer.** Choose Singleplayer and pick **NIT Agartala** from the list. If Minecraft was already open, go back to the title screen and open Singleplayer again so the list refreshes.
 
-You start in Knowledge Park, in creative mode, with cheats on. If the world does not show up, check two things. First, `level.dat` must be exactly one folder below `saves`, and not two (as in `saves/NIT_Agartala_world_26.3/NIT Agartala/level.dat`). Second, the world must be in the `saves` folder of the profile you are playing, which the last row of the table finds. The game version must be 26.3 or newer. The world does not work in Bedrock Edition.
+When it is right, the folders look like this:
+
+```
+saves/
+  NIT Agartala/
+    data/
+    datapacks/
+    dimensions/
+    icon.png
+    level.dat
+```
+
+You start in Knowledge Park, in creative mode, with cheats on. If the world does not show up, `level.dat` is probably one folder too deep or not deep enough, so compare your folders with the picture above. The world needs Java Edition 26.3 or newer, and it does not work in Bedrock Edition.
 
 To play it with friends, copy the `NIT Agartala` folder into your server folder, rename it to `world`, and start the server as usual.
 
