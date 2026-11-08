@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+.scratch/
+
+# Private notes
+AGENTS.md
+HANDOFF.md
+
+# Large or third-party inputs (satellite tiles, Microsoft footprint dump, DEM tiles)
+data/raw/
+data/ref/
+
+# Template world: keep the layout, not a player or a lock
+data/skeleton/players/
+data/skeleton/session.lock
+
+# Generated outputs, backups and working copies
+out/
+archive/
+checkpoints/
+work/*
+!work/dup_drop.json
+!work/dup_pairs.json
+!work/remaining_inside.json
+
+# Reference media (tour videos and their frames belong to their owners)
+videos/
+refs/
+NITA_video_frames.zip
+
+# Local working notes from earlier build runs
+prompts/
+PILOT_REPORT.md
+PROGRESS.md
+TASKS.md
+FINAL_REPORT.md
+REVIEW_*.md
+WALKTHROUGH.md
+HAND_BUILDS.md
+BUILDINGS.csv
+
+# Full-size map renders; the README uses the jpg copies
+docs/images/map_day.png
+docs/images/map_night.png
