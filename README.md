@@ -78,7 +78,7 @@ docs/           guides and the pictures in this README
 
 ## Contributing
 
-Classmates are welcome to help. Good first jobs are the buildings in [docs/BUILDINGS.md](docs/BUILDINGS.md) that are not tied to a name yet, and interiors for buildings you know from the inside. Each building lives in its own script in `tools/hand/`, so a change to one building does not touch the others.
+Classmates are welcome to help. Good first jobs are the buildings in [docs/BUILDINGS.md](docs/BUILDINGS.md) that are not tied to a name yet, and interiors for buildings you know from the inside. Each building lives in its own script in `tools/hand/`, so a change to one building does not touch the others. [CONTRIBUTING.md](CONTRIBUTING.md) explains how to place a building and check it.
 
 ## Credits
 
