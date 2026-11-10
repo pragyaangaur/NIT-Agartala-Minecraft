@@ -108,6 +108,7 @@ Roads have kerbs, footpaths and street lamps with benches and bins. Trees, grass
 - Make a **video or a short film** with the campus as the set.
 - Host it on a **server** for your friends and explore it together.
 - Fix or improve a building you know well and send it back (see below).
+
 People who saw the project suggested a few more:
 
 - Use it as an **interactive tour for newcomers**, so they learn the layout before their first day.
