@@ -116,6 +116,10 @@ People who saw the project suggested a few more:
 - Build **digital twins of riverside villages** to plan for floods.
 - Grow it into a **shared map** where people add the places they know.
 
+## Build your own campus
+
+You can do the same for your own college, school or neighbourhood. The base layer in `tools/` works anywhere OpenStreetMap has data: it turns a map area into 1:1 terrain, roads and building outlines. The NIT Agartala parts are the campus outline and bounding box in `tools/osm_fetch.py` and `tools/geo.py`, and the hand-built buildings in `tools/hand/`, which you would replace with your own from photos or videos. The easiest way is to point an AI coding agent at this repository, tell it the place you want, and let it adapt the scripts. [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md) explains each step, and the scripts for the named buildings are worked examples. If you build one, open an issue with a picture so it can be linked here.
+
 ## How close is it to the real campus?
 
 The outside of the campus is the part to trust. Here is an honest account of the rest.
