@@ -17,6 +17,10 @@ Walk in through the main gate, find your hostel, climb through the Library's thr
 <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-lightgrey">
 </p>
 
+<p align="center">
+If you enjoy walking round it, or you build your own campus from it, please star the repo. It helps other people find it.
+</p>
+
 Every road, hostel, hill and pond sits where it is on the ground at Barjala, Jirania, because one block is one metre both across and up. The layout comes from real map data, and the main buildings were designed by hand from campus tour videos, so a student should recognise the place on sight. You can use it to show a friend round campus, run a treasure hunt, plan an event or build something new on top of it.
 
 ## Play it in four steps
